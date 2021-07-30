@@ -1,13 +1,12 @@
 {
   "main": {
-    "name":"Adharsh Adhikari",
-    "description":"I am a full stack developer and I use react.js to develop pages. Welcome to my world and creation",
+    "name":"Hi, I'm Adharsh",
+    "description":"A front end developer, I use react.js to develop pages. Welcome to my world and creation",
     "image":"profilepic.jpg",
     "bio":"Graduate student looking forward to explore the world of possibilties. I have serious passion for Front end development and UI effects.",
     "contactmessage":"Leave a message",
     "email": "adharsha333@gmail.com",
     "phone": "3183812707",
-    "github":"https://github.com/adharsh333",
     "project":"https://github.com/adharsh333",
     "address":{
       "street":"3502 concordia street",
@@ -51,6 +50,12 @@
         "title":"Full Stack Developer Intern",
         "years":"May 2019 - August 2019",
         "description":"Collaborated with Senior Developer to optimize 4 landing pages resulting in an 11% decrease in bounce rate on average. Used the responsive utilities of the Bootstrap frameworks to facilitate the design displaying properly on different devices. Participated in weekly team meeting and presented design ideas on active projects"
+      },
+      {
+        "company":"Nabil Bank Pvt Ltd",
+        "title":"Customer Service",
+        "years":"May 2017-July 2017",
+        "description":"Resolved an average of 180 inquiries in a day and consistently met performance benchmarks. Commended for initiative, dependability in performance evaluation and problem resolution"
       }
     ],
     "skills":[
@@ -96,7 +101,7 @@
         "title":"Resume Website",
         "category":"A React based resume website template",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":""
       }
     ]
   }
