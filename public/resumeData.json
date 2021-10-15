@@ -72,6 +72,10 @@
         "level":"80%"
       },
       {
+        "name":"Angular",
+        "level":"60%"
+      },
+      {
         "name":"CSS",
         "level":"90%"
       },
@@ -86,6 +90,50 @@
       {
         "name":"JAVA",
         "level":"80%"
+      }
+    ],
+    "skills2":[
+      {
+        "name":"Git",
+        "level":"70%"
+      },
+      {
+        "name":"Jenkins",
+        "level":"60%"
+      },
+      {
+        "name":"Android Studio",
+        "level":"80%"
+      },
+      {
+        "name":"Virtual Box",
+        "level":"60%"
+      }
+    ],
+    "skills3":[
+      {
+        "name":"Adobe Premier Pro",
+        "level":"60%"
+      },
+      {
+        "name":"Adobe After Effects",
+        "level":"70%"
+      },
+      {
+        "name":"Adobe Illustrator",
+        "level":"40%"
+      },
+      {
+        "name":"Adobe Lightroom",
+        "level":"70%"
+      },
+      {
+        "name":"Blender",
+        "level":"50%"
+      },
+      {
+        "name":"Figma",
+        "level":"90%"
       }
     ]
   },

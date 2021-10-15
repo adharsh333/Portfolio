@@ -54,6 +54,36 @@ class Resume extends Component {
       );
     });
 
+    const skills2 = this.props.data.skills2.map((skills) => {
+      const backgroundColor = this.getRandomColor();
+      const className = "bar-expand " + skills.name.toLowerCase();
+      const width = skills.level;
+
+      return (
+        <li key={skills.name}>
+          <span style={{ width, backgroundColor }} className={className}></span>
+          <em>{skills.name}</em>
+        </li>
+      );
+
+    });
+
+    const skills3 = this.props.data.skills3.map((skills) => {
+      const backgroundColor = this.getRandomColor();
+      const className = "bar-expand " + skills.name.toLowerCase();
+      const width = skills.level;
+
+      return (
+        <li key={skills.name}>
+          <span style={{ width, backgroundColor }} className={className}></span>
+          <em>{skills.name}</em>
+        </li>
+      );
+
+    });
+
+
+
     return (
       <section id="resume">
         <Slide left duration={1300}>
@@ -96,7 +126,18 @@ class Resume extends Component {
               <p>{skillmessage}</p>
 
               <div className="bars">
+                <h2>
+                  <span>Language</span>
+                </h2>
                 <ul className="skills">{skills}</ul>
+                <h2>
+                  <span>Tools</span>
+                </h2>
+                <ul className="skills">{skills2}</ul>
+                <h2>
+                  <span>Design</span>
+                </h2>
+                <ul className="skills">{skills3}</ul>
               </div>
             </div>
           </div>
